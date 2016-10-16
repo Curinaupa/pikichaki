@@ -132,7 +132,7 @@ public class Lab64 {
                            {3, 7, 11, 15},
                            {4, 8, 10, 12}
         };
-        Lab64 lab64 = new Lab64();
+        Lab63 lab64 = new Lab63();
 
 //        for (int [] a:matrix ) {
 //            for (int b: a) {
