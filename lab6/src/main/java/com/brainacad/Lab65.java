@@ -10,8 +10,8 @@ import java.util.Arrays;
 //        Line 4: [3]
 
 public class Lab65 {
-    final int MAX_LENGTH_RAWS = 5;
-    final int MAX_LENGTH_COLUMNS = 5;
+    final int MAX_LENGTH_RAWS = 10;
+    final int MAX_LENGTH_COLUMNS = 8;
     int [][] matrix = new int[MAX_LENGTH_RAWS][MAX_LENGTH_COLUMNS];
     //Generating Matrix
     public void getMatrix(){
