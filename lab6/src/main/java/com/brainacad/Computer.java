@@ -69,4 +69,15 @@ public class Computer {
     public void view(){
         System.out.printf("%s %s %d %f %d %d\n",getClass(),getManufacturer(),getSerialNumber(),getPrice(),getQuantityCPU(),getFrequencyCPU());
     }
+
+    @Override
+    public String toString() {
+        return "Computer{" +
+                "manufacturer='" + manufacturer + '\'' +
+                ", serialNumber=" + serialNumber +
+                ", price=" + price +
+                ", quantityCPU=" + quantityCPU +
+                ", frequencyCPU=" + frequencyCPU +
+                '}';
+    }
 }
