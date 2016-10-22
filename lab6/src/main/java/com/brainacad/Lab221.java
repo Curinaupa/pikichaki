@@ -3,8 +3,8 @@ package com.brainacad;
  *
  */
 public class Lab221 {
-    private  final int MAX_LENGTH_RAWS = 5;
-    private final int MAX_LENGTH_COLUMNS = 5;
+    private  final int MAX_LENGTH_RAWS = 7;
+    private final int MAX_LENGTH_COLUMNS = 7;
     int [][] matrixResult;
     int [] [] matrixProduct;
     //int [][] matrix = new int[MAX_LENGTH_RAWS][MAX_LENGTH_COLUMNS];
