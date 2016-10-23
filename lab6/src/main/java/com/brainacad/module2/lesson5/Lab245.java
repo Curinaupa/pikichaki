@@ -5,7 +5,7 @@ package com.brainacad.module2.lesson5;
  */
 public class Lab245 {
     public static void main(String[] args) {
-        double piValue = MyCalc.calcPi(3);
+        double piValue = MyCalc.calcPi(1000000);
         System.out.println("Value of PI "+ piValue);
     }
 }
