@@ -1,4 +1,4 @@
-package com.brainacad;
+package com.brainacad.classAndInstance;
 
 /**
  * Write Computer class, the attributes of this class is

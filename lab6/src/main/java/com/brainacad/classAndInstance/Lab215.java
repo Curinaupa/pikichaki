@@ -1,4 +1,4 @@
-package com.brainacad;
+package com.brainacad.classAndInstance;
 /**
  * Add to class Computer method void view (){} that prints all fields of object in line.
  Print all info (fields) of all objects in console.

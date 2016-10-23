@@ -1,4 +1,4 @@
-package com.brainacad;
+package com.brainacad.methods;
 
 import java.util.Arrays;
 

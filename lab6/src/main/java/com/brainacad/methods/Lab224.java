@@ -1,4 +1,4 @@
-package com.brainacad;
+package com.brainacad.methods;
 
 /**
  * Create class Person with fields firstName(String),

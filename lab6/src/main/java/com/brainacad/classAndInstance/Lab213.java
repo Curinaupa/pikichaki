@@ -1,4 +1,4 @@
-package com.brainacad;
+package com.brainacad.classAndInstance;
 
 /**
  * Write a program to create array of Computer objects (5 pcs.)

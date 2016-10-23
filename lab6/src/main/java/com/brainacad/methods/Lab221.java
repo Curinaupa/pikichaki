@@ -1,4 +1,4 @@
-package com.brainacad;
+package com.brainacad.methods;
 /**Create class Matrix with 2D array (int, size 2x2) field and methods: addition and multiplication of matrices;
  *
  */
