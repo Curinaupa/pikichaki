@@ -1,4 +1,4 @@
-package com.brainacad;
+package com.brainacad.controlFlowStatem;
 
 import java.util.Scanner;
 
