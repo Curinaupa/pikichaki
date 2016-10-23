@@ -1,4 +1,4 @@
-package com.brainacad;
+package com.brainacad.module2.lesson2;
 
 /**
  * Write class Employee with method calcSalary with argument name(String)
