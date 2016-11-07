@@ -39,8 +39,11 @@ public class Shape {
     public  double calcArea (){
         return 0.0;
     }
+    public void getArea(){
+        System.out.printf("%s %s %,.2f\n",this.getClass().getSimpleName(), "area is:", this.calcArea());
+    }
       //  “Shape, color is: RED”
     public String toString(){
-        return  String.format("%s %s %s\n%s %,.2f",this.getClass().getSimpleName(),"color is", getShapeColor(),"Shape area is:", this.calcArea() );
+        return  String.format("%s %s %s",this.getClass().getSimpleName(),"color is:", getShapeColor() );
     }
 }
