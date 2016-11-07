@@ -1,4 +1,4 @@
-package com.brainacad.constructors.lesson5;
+package com.brainacad.staticMethods;
 
 /**
  * The value of π can be calculated with the series:

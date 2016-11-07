@@ -1,4 +1,4 @@
-package com.brainacad.constructors.lesson4;
+package com.brainacad.staticMethods;
 
 /**
  * Create Emploee class with fields firstName, lastName, occupation,

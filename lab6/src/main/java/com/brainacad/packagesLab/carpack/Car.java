@@ -1,4 +1,4 @@
-package com.brainacad.packagesLab.com.brainacad.carpack;
+package com.brainacad.packagesLab.carpack;
 
 /**
  * Created by Huamani V.R on 05.11.2016.

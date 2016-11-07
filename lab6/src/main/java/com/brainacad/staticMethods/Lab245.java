@@ -1,4 +1,4 @@
-package com.brainacad.constructors.lesson5;
+package com.brainacad.staticMethods;
 
 /**
  * Created by Huamani V.R on 23.10.2016.

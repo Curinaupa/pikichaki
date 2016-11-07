@@ -1,4 +1,4 @@
-package com.brainacad.constructors.lesson4;
+package com.brainacad.staticMethods;
 
 public class Lab244 {
     public static void main(String[] args) {
