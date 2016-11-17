@@ -3,7 +3,7 @@ package com.brainacad.packagesLab.carpack;
 /**
  * Created by Huamani V.R on 05.11.2016.
  */
-public class Car {
+public class NoCar {
     private double weight;
 
     public double getWeight() {
