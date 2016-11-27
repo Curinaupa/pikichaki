@@ -18,10 +18,14 @@ import java.util.Arrays;
 public class Lab2122 {
     public static void main(String[] args) {
         MyphoneBook myphoneBook = new MyphoneBook();
-        myphoneBook.addPhoneNumber("aNokia", "12345677");
-        myphoneBook.addPhoneNumber("vNokia", "12345679");
-        myphoneBook.addPhoneNumber("bNbokia", "12345673");
-        myphoneBook.addPhoneNumber("uNokia", "12345674");
+        myphoneBook.addPhoneNumber("Vasia", "0971234567");
+        myphoneBook.addPhoneNumber("Kolya", "0571234568");
+        myphoneBook.addPhoneNumber("Antin", "0971234567");
+        myphoneBook.addPhoneNumber("Evkaky", "0571234568");
+        myphoneBook.addPhoneNumber("Evkaky1", "0271234568");
+        myphoneBook.addPhoneNumber("Evkaky2", "0871234568");
+        myphoneBook.addPhoneNumber("Evkaky3", "0371234568");
+        myphoneBook.addPhoneNumber("Evkaky4", "0771234568");
         myphoneBook.printPhoneBook();
         System.out.println("Sort by Name");
         myphoneBook.sortByName();

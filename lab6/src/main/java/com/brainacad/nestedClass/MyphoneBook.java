@@ -22,7 +22,7 @@ import java.util.Comparator;
  * Name: Vova, phone: 067987654
  */
 public class MyphoneBook {
-    PhoneNumber[] phoneNumbers = new PhoneNumber[4];
+    PhoneNumber[] phoneNumbers = new PhoneNumber[8];
     private int position = 0;
 
     class PhoneNumber {
