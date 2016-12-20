@@ -41,7 +41,7 @@ public class MyTestMethod {
     public static <T extends Number & Comparable<T>> T calcSumI(T[] arr, T compareElem) {
 
         int countElem = 0;
-        int sum = 0;
+        double sum = 0;
         double suma = 0;
         if (compareElem instanceof Integer) {
             for (T element : arr) {
@@ -50,13 +50,13 @@ public class MyTestMethod {
                     sum = sum + element.intValue();
                 }
             }
-            return (T) new Integer(sum);
+            return (T) new Integer((int)sum);
 
         } else if (compareElem instanceof Double) {
             for (T element : arr) {
                 if (element.compareTo(compareElem) > 0) {
                     countElem++;
-                    sum = sum + element.intValue();
+                    sum = sum + element.doubleValue();
                 }
 
             }
@@ -66,4 +66,6 @@ public class MyTestMethod {
         return null;
 
     }
+
+
 }

@@ -16,5 +16,6 @@ public class Lab2141 {
     public static void main(String[] args) {
         MyTuple<String,Integer,Long> myTuple = new MyTuple("Hello", 10, 2234L);
         MyTuple<Double, String, String> myTuple1 = new MyTuple<>(3.45, "World", "Piki");
+
     }
 }

@@ -29,9 +29,11 @@ public class Lab2142 {
         System.out.println("Array values:" + Arrays.toString(arrInt));
         System.out.println("Number of elements that are greater than 3");
         System.out.println(MyTestMethod.calcNum(arrInt,3));
+        System.out.println("Suma of elements: " + MyTestMethod.calcSumI(arrInt,3));
         System.out.println("Array values:" + Arrays.toString(arrDouble));
         System.out.println("Number of elements that are greater than 3");
         System.out.println(MyTestMethod.calcNum(arrDouble,3.0));
+        System.out.println("Suma of elements : " + MyTestMethod.calcSumI(arrDouble,3.0));
     }
 
 }

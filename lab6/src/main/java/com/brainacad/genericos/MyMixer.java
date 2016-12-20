@@ -26,7 +26,6 @@ public class MyMixer <T>{
 
     public T[] shuffle(){
         Random random = new Random();
-
         for (int i = 0; i < arr.length; i++) {
         int newPosition = random.nextInt(arr.length-1);
         T newPosElement =  arr[newPosition];
