@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="com.brainacad:jar">
+    <output-path>$PROJECT_DIR$/lab6/out/artifacts/com_brainacad_jar</output-path>
+    <root id="archive" name="com.brainacad.jar">
+      <element id="module-output" name="com.brainacad" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lab6/libs/testcar.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
