@@ -1,4 +1,4 @@
-package modulo2.streams;
+package javaSE.stream;
 
 
         import java.util.Arrays;

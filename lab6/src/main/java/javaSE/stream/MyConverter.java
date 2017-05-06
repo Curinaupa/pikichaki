@@ -1,4 +1,4 @@
-package modulo2.streams;
+package javaSE.stream;
 @FunctionalInterface
 public interface MyConverter {
     public String convertStr(String str);
