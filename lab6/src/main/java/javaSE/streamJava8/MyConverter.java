@@ -1,4 +1,4 @@
-package javaSE.stream;
+package javaSE.streamJava8;
 @FunctionalInterface
 public interface MyConverter {
     public String convertStr(String str);

@@ -1,4 +1,4 @@
-package javaSE.stream;
+package javaSE.streamJava8;
 
 
         import java.util.Arrays;

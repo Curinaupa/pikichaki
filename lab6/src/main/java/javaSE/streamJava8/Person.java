@@ -1,4 +1,4 @@
-package javaSE.stream;
+package javaSE.streamJava8;
 
 /**
  * Create a class Person with private fields: name, age and gender, as well as getter and setter methods, and constructor,
