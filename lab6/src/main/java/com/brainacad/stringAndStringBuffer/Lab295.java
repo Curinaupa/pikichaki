@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 
 /**
  * Create new project called TestRegExp. Add package “com.brainacad.oop.testsregexp”.
- Create a class Main with a main() method.
+ Create a class MainLab141 with a main() method.
  Create public static method checkPersonWithRegExp(String userNameString) which take String
  as argument and return boolean value. This method must return true only if argument string
  value begin from Uppercase, then other chars in Lowercase and contains only letters.

@@ -7,7 +7,7 @@ import java.util.Random;
  Add package “com.brainacad.oop.testgenerics3”.
  Create a generic class MyMixer<T> with field as Array of some type, provide constructor with one parameters.
  Add to MyMixer public “shuffle ()” method which shuffle elements of Array and return it;
- Create a class Main with a main( ) method.
+ Create a class MainLab141 with a main( ) method.
  Add to method main() code that creates two Array of different types:
  First one is array of Integer with values {1,2,3,4,5,6,7,8,9}
  Second one is array of strings: {“one”,”two”, …}

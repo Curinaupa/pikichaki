@@ -2,7 +2,7 @@ package com.brainacad.inheritanceAndPolymorphism;
 
 /**
  * Lab275
- * Create program (class Main). The program must demonstrate the creation of an arrays
+ * Create program (class MainLab141). The program must demonstrate the creation of an arrays
  * of different types devices, setup and output characteristics of each device
  */
 

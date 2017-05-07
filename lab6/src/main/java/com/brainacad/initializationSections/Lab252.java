@@ -9,7 +9,7 @@ import java.util.Arrays;
  arr[i]= (int) (100 * Math.random()).
  (Or using Random class instance and nextInt() method invocation).
  Add to class MyInit and method “printArray()” which will print values of this array.
- Create class Main, which will create two instances of class MyInit and invoke method “printArray()” to print values
+ Create class MainLab141, which will create two instances of class MyInit and invoke method “printArray()” to print values
  of their arrays on console.
 
  Example of output:

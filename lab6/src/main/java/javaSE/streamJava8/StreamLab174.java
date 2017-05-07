@@ -9,7 +9,7 @@ import java.util.stream.Stream;
 
 /**
  * Create new project called TestStream. Add package “com.brainacad.oop.teststreams”.
- * 1) Create a class Main with a main() method, which: - create and output a list of integers using Stream functions:
+ * 1) Create a class MainLab141 with a main() method, which: - create and output a list of integers using Stream functions:
  * create an infinite stream of integers, starting at 10 and increasing every next on 10, then restrict it 10 the first elements,
  * which are then halved and collect the list; - create a list of strings of 10 elements and then using the Stream,
  * select, sort and print the lines starting with some a symbol.

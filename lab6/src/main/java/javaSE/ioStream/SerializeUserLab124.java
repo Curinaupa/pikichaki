@@ -13,7 +13,7 @@ import java.util.List;
  * 1) Create class User with private fields : String firstName, String lastName, int age.
  * Add getters and setters to User class. Add two constructors: one with no arguments, another with parameters.
  * Override the toString() method.
- * 2) Create a class Main with a main() method, which creates an instance
+ * 2) Create a class MainLab141 with a main() method, which creates an instance
  * User and adds it to the "users.ser" file using serialization (Note, to append to a file, use class RandomAccessFile
  * and a method of writeBytes(String ...)); 3) Add code in a main() method that reads from a file "users.ser"
  * using de-serialization all users and prints them to the console. 4) Execute the program.
@@ -24,20 +24,20 @@ public class SerializeUserLab124 {
         File filename = new File("user.ser");
         //writing to RAF
 
-
+        RandomAccessFile writeRAF = new RandomAccessFile(filename, "rw");
         System.out.println();
         int j = 0;
         for (int i = 0; i <= 9; i++) {
             j += 10;
 
-            writeToRAF(filename, j, list.get(i));
-
-
+            writeToRAF(writeRAF, j, list.get(i));
         }
+        writeRAF.seek(0);
+
         //reading from RAF
-        int position = 100;
+//        int position = 90;
         //File filename1 = new File("user.ser");
-        String user = readFromRAF(filename, position);
+        String user = readFromRAF(writeRAF, 0);
         System.out.println(user);
 //
 //        String[] tokens = user.trim().split(" ");
@@ -45,16 +45,13 @@ public class SerializeUserLab124 {
 //        for (int i = 0; i <tokens.length ; i++) {
 //            System.out.println(tokens[i]);
 //        }
-
+        writeRAF.close();
     }
 
-    private static String readFromRAF(File filename, int position) {
+    private static String readFromRAF(RandomAccessFile readRAF, int position) {
         String str = null;
         try {
-            RandomAccessFile   readRAF = new RandomAccessFile(filename, "rw");
-            readRAF.seek(position);
             str = readRAF.readLine();
-            readRAF.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
@@ -63,14 +60,13 @@ public class SerializeUserLab124 {
         return str;
     }
 
-    private static void writeToRAF(File filename, int position, User user) {
+    private static void writeToRAF(RandomAccessFile writeRAF, int position, User user) {
         try {
-            RandomAccessFile writeRAF = new RandomAccessFile(filename, "rw");
-            writeRAF.seek(position);
+
             writeRAF.writeBytes(user.toString() + "\n");
 
             System.out.println(user.toString());
-            writeRAF.close();
+
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();

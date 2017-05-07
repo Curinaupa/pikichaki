@@ -8,7 +8,7 @@ import java.util.Locale;
 
 /**
  Create new project called TestDateTime.
- Add package “com.brainacad.oop.testapidate”. Create a class Main with a main() method, which:
+ Add package “com.brainacad.oop.testapidate”. Create a class MainLab141 with a main() method, which:
  1) Determine and output the current date and the date of birth, and then define and output the number of your years;
  2) Determine in which day of the week you were born and what day of the week will be the birthday of this year,
  then determine was whether this year's birthday;

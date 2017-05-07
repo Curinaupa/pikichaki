@@ -7,7 +7,7 @@ package com.brainacad.abstractClassesInterfaces;
  The classes that implements the Drawable interface will provide actual implementation to these
  abstract method witch print characteristics of each shape on console (print to console information
  about this object from toString() and area of this shape (using “calcArea()” method).
- Add code to main() method in class Main to iterate over shapes array in loop (use for-each loop) and invoke draw() method.
+ Add code to main() method in class MainLab141 to iterate over shapes array in loop (use for-each loop) and invoke draw() method.
  Execute the program, output must looks like:
 
  This is Rectangle, color: RED, width=11, height=22,  area is: 242

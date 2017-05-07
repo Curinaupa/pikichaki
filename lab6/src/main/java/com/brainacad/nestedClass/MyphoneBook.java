@@ -14,7 +14,7 @@ import java.util.Comparator;
  * which use it to create new PhoneNumber object and pass it to next available array element.
  * 4) Add to class MyPhoneBook public method printPhoneBook() which iterates over phoneNumbers  array in loop and
  * print name and phone number information of each record to console.
- * 5) Create a class Main with a main() method. Add to method main() code that creates MyPhoneBook object and fill
+ * 5) Create a class MainLab141 with a main() method. Add to method main() code that creates MyPhoneBook object and fill
  * it with five phone number records. Add code to invoke printPhoneBook() method.
  * 6) Execute the program.
  * Example of program output:

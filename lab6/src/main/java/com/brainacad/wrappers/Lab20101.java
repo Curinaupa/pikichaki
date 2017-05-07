@@ -5,7 +5,7 @@ import java.util.Objects;
 /**
  * Create new project called WrapperDemo.
  Add package “com.brainacad.oop.testwrapper”.
- Create class Main with method main(). In main() method declare few xN local variable of Integer class and initialize
+ Create class MainLab141 with method main(). In main() method declare few xN local variable of Integer class and initialize
  it with same value (lower then 128), but in different manner.
  For example:
  Integer x1 = 10;

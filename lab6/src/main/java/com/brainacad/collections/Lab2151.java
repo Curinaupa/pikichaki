@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Create new project called  TestCollection1.
  * Add package “com.brainacad.oop.testcollection1”.
- * Create a class Main with a main( ) method.
+ * Create a class MainLab141 with a main( ) method.
  * Add to method main() code that declares “list” variable (of List type) of string objects as ArrayList<String>.
  * Write code to fill this “list” in loop with string values like: “number_” and number of current iteration
  * (from 0 to 10). Add code which iterates over list and print current element value to console.

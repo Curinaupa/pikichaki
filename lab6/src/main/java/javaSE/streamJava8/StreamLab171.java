@@ -9,14 +9,14 @@ package javaSE.streamJava8;
 /**
  * Create new project called TestLambda.
  Add package “com.brainacad.oop.testlambda”.
- 1) Create a class Main with a main() method, which creates array of Integer type and fills it with random values.
+ 1) Create a class MainLab141 with a main() method, which creates array of Integer type and fills it with random values.
  Add in a main() method of the sorting code an array of integer values in descending order, using lambda expressions to specify the sort order.
  2) Add in a main() method code that creates a list of strings and sorts it in the reverse alphabetical order. Using lambda expressions to specify the sort order.
  */
 public class StreamLab171 {
     public static void main(String[] args) {
 
-//1.-Create a class Main with a main() method, which creates array of Integer type and fills it with random values.
+//1.-Create a class MainLab141 with a main() method, which creates array of Integer type and fills it with random values.
         Integer [] arrayInt = new Integer[10];
         Random random = new Random();
         for (int i = 0; i < arrayInt.length; i++) {

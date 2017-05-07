@@ -3,7 +3,7 @@ package com.brainacad.inheritanceAndPolymorphism.oop.testshapes;
 /**
  * Use “MyShapes” project. The program must demonstrate the creation of an array of different types of shapes and print
  * characteristics of each shape on console.
- 1.	Add new code to method main() in class Main:
+ 1.	Add new code to method main() in class MainLab141:
  2.	Create array (Shape[] arr) of different Shapes objects, (five  rectangles, two circles and two triangles);
  3.	Add code to iterate over shapes array in loop (use for-each loop) and print characteristics of each shape on console
  (using “toString()” method) with area of this shape (using “calcArea()” method).

@@ -7,23 +7,23 @@ import java.util.stream.Collectors;
 
 /**
  * Open project called TestLambda1 (from 1-7-1 lab).
- 1) Add in a Main class a sumEven() static method that takes two parameters:
+ 1) Add in a MainLab141 class a sumEven() static method that takes two parameters:
  the first - an array of integers, and the second - the predicate of Predicate<Integer> type for selecting numbers.
  2) Add in a main() method code that invokes sumEven() method and in the form of a lambda expression specifies the
  selection condition the values of the array elements.
- 3) Add in a Main class a printJStr() static method that takes two parameters: the first - an list of strings, and the second
+ 3) Add in a MainLab141 class a printJStr() static method that takes two parameters: the first - an list of strings, and the second
  - the predicate of Predicate<String> type for the selection of strings beginning with a given letter.
  4) Add in a main() method code that invokes printJStr() method and in the form of a lambda expression specifies the selection condition the strings.
  */
 public class StreamLab172 {
     public static void main(String[] args) {
-        //1) Add in a Main class a sumEven() static method
+        //1) Add in a MainLab141 class a sumEven() static method
         Integer[] numbers = {2,3,4,5,6,7,8,9,1,10};
         sumEven(numbers, x-> x%2==0);
         System.out.println();
         sumEven(numbers, x-> x%3==0);
         System.out.println();
-        //3) Add in a Main class a printJStr() static method
+        //3) Add in a MainLab141 class a printJStr() static method
         List<String> list = getList();
         printJStr(list, x -> x.startsWith("A") );
         System.out.println();

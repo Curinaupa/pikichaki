@@ -1,9 +1,9 @@
 package com.brainacad.abstractClassesInterfaces;
 
 /**
- * Add code to main() method in class Main to create array (Rectangle[] arr2) of six Rectangle
+ * Add code to main() method in class MainLab141 to create array (Rectangle[] arr2) of six Rectangle
  * objects and sort it using Arrays.sort() method.
- Add code to main() method in class Main to iterate over Rectangles array in loop (use for-each loop)
+ Add code to main() method in class MainLab141 to iterate over Rectangles array in loop (use for-each loop)
  and invoke draw() method.
 
  Execute the program, output must looks like:

@@ -2,7 +2,7 @@ package com.brainacad.stringAndStringBuffer;
 
 /**
  * Create new project called TestStrings1. Add package “com.brainacad.oop.teststring1”.
- * Create a class Main with a main() method.In method main() declare local variable myStr of String type
+ * Create a class MainLab141 with a main() method.In method main() declare local variable myStr of String type
  * and assign a value: “abracadabra”.
  * Using the methods of the class String, do next steps:
  * -	Find the index of first “ra” substring  of myStr value and print result to console.

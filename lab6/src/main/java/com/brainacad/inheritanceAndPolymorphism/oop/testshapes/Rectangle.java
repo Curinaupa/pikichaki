@@ -9,7 +9,7 @@ package com.brainacad.inheritanceAndPolymorphism.oop.testshapes;
  “This is Rectangle, color: RED, width=11, height=22”
  Add to class Rectangle constructor with color , width and height arguments.
 
- Then add to class Main code to create one Rectangle object and print it name, color, width and height to console. Then invoke calcArea() method and print result to console.
+ Then add to class MainLab141 code to create one Rectangle object and print it name, color, width and height to console. Then invoke calcArea() method and print result to console.
  Program output must looks like:
  “This is Rectangle, color: RED, width=11, height=22”
  “Shape area is: 242”

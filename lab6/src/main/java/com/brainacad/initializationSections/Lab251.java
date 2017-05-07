@@ -11,7 +11,7 @@ package com.brainacad.initializationSections;
 //        “constructor 1”
 //        “constructor 2”
 //
-//        Create class Main, which will create instance of class MyInitTest by invoking first constructor.
+//        Create class MainLab141, which will create instance of class MyInitTest by invoking first constructor.
 
 public class Lab251 {
     public static void main(String[] args) {

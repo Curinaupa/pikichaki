@@ -10,7 +10,7 @@ package com.brainacad.inheritanceAndPolymorphism.oop.testshapes;
  * “This is Triangle, color: BLACK, a=5, b=5, c=5”
  * Add to class Triangle constructor with color, a, b and c arguments.
  * <p>
- * Then add to class Main code to create one Triangle object and print it name, color, a, b, c sides of triangle
+ * Then add to class MainLab141 code to create one Triangle object and print it name, color, a, b, c sides of triangle
  * to console. Then invoke calcArea() method and print result to console.
  * Program output must looks like:
  * “This is Triangle, color: BLACK, a=5, b=5, c=5”

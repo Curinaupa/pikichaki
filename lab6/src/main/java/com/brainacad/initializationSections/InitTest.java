@@ -6,7 +6,7 @@ package com.brainacad.initializationSections;
  -	Increments  static field “nextId” each time when new instance of InitTest created;
  -	Initialize field “id” of “nextId” field value each time when new instance of InitTest created.
  And method getId() which will return value of id.
- Create class Main, which will create five instances of class InitTest and invokes method “getId()”
+ Create class MainLab141, which will create five instances of class InitTest and invokes method “getId()”
  on each instance and print returned value on console.
 
  * Created by Huamani V.R on 05.11.2016.

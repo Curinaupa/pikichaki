@@ -13,7 +13,7 @@ package com.brainacad.wrappers;
  2.	Determine and extract numeric values form string and parse it to double type (using Double.parseDouble()
  method), to use it as arguments to create particular Shape object.
  3.	Create particular Shape object and pass it to return statement;
- Add code to main() method in class Main, which creates one Rectangle, one Triangle and one Circle using
+ Add code to main() method in class MainLab141, which creates one Rectangle, one Triangle and one Circle using
  Shape.parseShape(String) method.
  Execute program.
 

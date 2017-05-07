@@ -14,7 +14,7 @@ package com.brainacad.inheritanceAndPolymorphism.oop.testshapes;
  // All shapes must has a method called calcArea (), write public method
  (empty)  calcArea ¬that returns double value ( 0.0 ) .
  }
- Create class Main with method main().
+ Create class MainLab141 with method main().
  The program must demonstrate the creation of one Shape object and print it name and color to console.
  Then add code to invoke calcArea() method and print result to console.
  Program output must looks like:

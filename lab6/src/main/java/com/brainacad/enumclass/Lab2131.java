@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * Create new project called  TestEnum1. Add package “com.brainacad.oop.testenum1”.
- 1) Create a class Main with a main().
+ 1) Create a class MainLab141 with a main().
  2) Create a enum type MyDayOfWeek which specify a days-of-the-week (SUNDAY, MONDAY, …).
  3) Add to method main() code that iterate over MyDayOfWeek enum possible values in loop and
  print each value name to console.

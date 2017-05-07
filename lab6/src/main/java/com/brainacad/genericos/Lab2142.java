@@ -8,7 +8,7 @@ import java.util.Arrays;
  * Create a generic class MyTestMethod with static method “calcNum” (with two parameters:
  * an array T[] and variable maxelm of type T) that counts the number of elements in an array T[]
  * that are greater than a specified element maxelm.
- * Create a class Main with a main( ) method.
+ * Create a class MainLab141 with a main( ) method.
  * Add to method main() code that creates two array, first – array of Integer type and second –
  * array of Double type. Fill these arrays with some random values.
  * Add code to counts the number of elements in each of arrays  that are greater than a specified element

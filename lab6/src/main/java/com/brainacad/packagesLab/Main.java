@@ -15,7 +15,7 @@ import com.brainacad.packagesLab.example.applepack.Apple;
  2)	Class of Car (in the package com.brainacad.packagesLab.carpack) with methods getMass, setMass, which provide access to the field
  “weight” as double type.
 
- Create class Main (in the package example.testpack) with method main(), which creates an instance of Apple and Car
+ Create class MainLab141 (in the package example.testpack) with method main(), which creates an instance of Apple and Car
  (use import statement ),  then prints its value of weight for each instance;
 
  */
